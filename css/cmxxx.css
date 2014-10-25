@@ -1,0 +1,54 @@
+html,body,div,p,a {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	background-color: #002b36;
+	font-family: Verdana,Arial,sans-serif;
+	font-size: 1.1em;
+	line-height: 1;
+}
+
+#duck:hover {
+	background: transparent url(../img/bikini-on.png) center top no-repeat;
+	display:block;
+	height:0;
+	width:0;
+	padding: 700px 0 0 700px;
+}
+
+#footer {
+	position: fixed;
+	bottom: 0px;
+	width: 600px;
+	left: 50%;
+	margin-left: -300px;
+	border: 1px solid #002b36;
+	border-bottom: none;
+	background: #073642;
+	padding: 5px;
+}
+
+a,a:link,a:visited  {
+	text-decoration:none;
+	color: #2aa198;
+}
+	
+a:hover,a:active {
+	color: #859900;
+}
+
+.center, #footer {
+	text-align:center;
+	display:block;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
